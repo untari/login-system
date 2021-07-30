@@ -1,13 +1,27 @@
 <%- include('header') -%>
 
 <div class="text-center center-div" id="login">
-    <div class="container -5 border py-5">
+    <div class="container w-25 border py-5">
         <div class="title pb-5">
             <h2 class="font-weight-bold">
                 Login System
             <h2>
-            <span>Log in for the existing user</span>
+            <h5>Log in for the existing user</h5>
         </div>
+        <form action="#">
+            <div class="form-group">
+                <input type="email" class="form-control" name="email" placeholder="email">
+                <small class="form-text text-muted text-left">
+                    Register email address
+                </small>
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" name="password" placeholder="password">
+            </div>
+            <button type="submit" class="btn btn-success">
+                Submit
+            </button>
+        </form>
     </div>
 </div>
 
