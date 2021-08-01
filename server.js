@@ -1,3 +1,4 @@
+const functions = require('firebase-functions');
 const express = require("express");
 const path = require('path');
 const bodyparser = require('body-parser');
@@ -24,11 +25,13 @@ app.use(session({
     saveUninitialized: true
 }));
 
-app.use('/router', router);
+app.use('/route', router);
 
 //home route
 app.get('/', (req,res) =>{
-    res.render('base', {title: "Login System"});
+    res.render('base', {titl: "Login System"});
 })
 
 app.listen(port, () => {console.log("Listening to the server on http://localhost:3000")});
+
+exports.app = functions.https.onRequest(app);

@@ -15,6 +15,6 @@ router.post('/login', (req, res) => {
     } else {
         res.end("Invalid Username");
     }
-})
+});
 
 module.exports = router;
