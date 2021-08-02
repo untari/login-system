@@ -26,9 +26,11 @@ app.use(session({
 
 app.use('/route', router);
 
+
 //home route
 app.get('/', (req,res) =>{
     res.render('base', {titl: "Login System"});
 })
+
 
 app.listen(port, () => {console.log("Listening to the server on http://localhost:3000")});
