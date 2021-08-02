@@ -13,7 +13,7 @@ router.post('/login', (req, res) => {
         //res.redirect('/dashboard');
         res.render('login', {title: "Login Sytem"});
     } else {
-        res.end("Invalid Username");
+        res.render('error', {title: "Login Sytem"});
     }
 });
 
