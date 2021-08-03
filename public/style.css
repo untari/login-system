@@ -47,6 +47,22 @@ body{
     justify-content: center;
     margin-top: 3%;
 }
+.msg-404{
+    color: #de4355;
+    font-size: 35px;
+    background-image: url('https://i.imgur.com/GnyDvKN.png');
+    margin-left: 35%;
+    padding: 30px 10px 15px 40px;
+    background-repeat: no-repeat;
+    background-position: 20%;
+}
+
+#error-404 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
 
 iframe{
     border: 2px solid #707b7d;

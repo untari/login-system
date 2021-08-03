@@ -32,5 +32,9 @@ app.get('/', (req,res) =>{
     res.render('base', {titl: "Login System"});
 })
 
+app.get('*', (req, res) => {
+  res.render('404', {titl: "Error"});
+});
+
 
 app.listen(port, () => {console.log("Listening to the server on http://localhost:3000")});
