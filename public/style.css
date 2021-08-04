@@ -26,8 +26,8 @@ body{
     color: #4F8A10;
     font-size: 20px;
     background-image: url('https://i.imgur.com/Q9BGTuy.png');
-    margin-left: 35%;
-    padding: 35px 10px 15px 50px;
+    margin-left: 39%;
+    padding: 15px 15px 5px 50px;
     background-repeat: no-repeat;
     background-position: 25%;
     
@@ -36,8 +36,8 @@ body{
     color: #de4355;
     font-size: 20px;
     background-image: url('https://i.imgur.com/GnyDvKN.png');
-    margin-left: 35%;
-    padding: 35px 10px 15px 50px;
+    margin-left: 39%;
+    padding: 15px 15px 5px 50px;
     background-repeat: no-repeat;
     background-position: 27%;
 }
@@ -48,13 +48,14 @@ body{
     margin-top: 3%;
 }
 .msg-404{
+    font-size: 20px;
     color: #de4355;
-    font-size: 35px;
-    background-image: url('https://i.imgur.com/GnyDvKN.png');
+    background-image: url('https://static.thenounproject.com/png/2568506-200.png');
     margin-left: 35%;
-    padding: 30px 10px 15px 40px;
+    padding: 40px 20px 25px 50px;
     background-repeat: no-repeat;
-    background-position: 20%;
+    background-position: 33%;
+    background-size: 4%;
 }
 
 #error-404 {
