@@ -5,7 +5,7 @@ This project is about how to create simple existing user login form using [EJS](
 
 This project is deployed in [Herokuapp](https://www.heroku.com/ "Heroku") to check the live website click [Login Form](https://login-form-nodejs.herokuapp.com/ "Login Form").
 
-To run this project: 
+To run this project locally: 
 - `clone the repository https://github.com/untari/login-system`
 - `npm install` 
 - and run the server with `npm start`.
